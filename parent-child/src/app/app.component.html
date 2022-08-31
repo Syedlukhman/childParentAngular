@@ -1,0 +1,11 @@
+
+ <div class="bg-container">
+  <select   name="name" #name="ngModel"  ngModel (change)="log(name)">
+    <option value="">Select a name</option>
+    <option value="{{item.Id}}" *ngFor="let item of list">{{item.name}}</option>
+  </select>
+  <p *ngIf="age">Age: {{age}}</p>
+ </div>
+
+
+<app-child *ngIf="id" [id]="id" (ageEvent)="getAge($event)" ></app-child>

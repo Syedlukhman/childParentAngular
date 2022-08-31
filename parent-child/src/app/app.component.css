@@ -1,0 +1,18 @@
+.bg-container{
+    background-image: linear-gradient(to right, #42669b,#8493b2);
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+select{
+    width: 20%;
+}
+p{
+    color: azure;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 600;
+}
